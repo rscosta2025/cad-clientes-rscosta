@@ -1,0 +1,204 @@
+* { 
+    box-sizing: border-box; 
+    font-family: "Segoe UI", Arial, sans-serif; 
+} 
+
+body { 
+    background-color: #f4f6f8; 
+    margin: 0; 
+    padding: 30px; 
+    color: #2c3e50; 
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container { 
+    max-width: 950px; 
+    margin: 0 auto; 
+    background: #ffffff; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+    flex: 1;
+    width: 100%;
+} 
+  
+h1 { 
+    color: #1f4e79; 
+    border-bottom: 2px solid #e2e8f0; 
+    padding-bottom: 12px; 
+    margin-top: 0;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label { 
+    display: block; 
+    margin-top: 12px; 
+    font-weight: 600; 
+} 
+  
+input { 
+    width: 100%; 
+    padding: 10px; 
+    margin-top: 4px; 
+    border: 1px solid #cbd5e1; 
+    border-radius: 6px; 
+    outline: none;
+    transition: border-color 0.2s;
+} 
+
+input:focus {
+    border-color: #1f4e79;
+}
+  
+button { 
+    margin-top: 16px; 
+    background: #2e8b57; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 18px; 
+    border-radius: 6px; 
+    cursor: pointer; 
+    font-weight: 600;
+    transition: background 0.2s;
+} 
+
+button:hover {
+    background: #256f45;
+}
+  
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin-top: 20px; 
+} 
+  
+th, td { 
+    padding: 12px 16px; 
+    border-bottom: 1px solid #edf2f7; 
+    text-align: left; 
+} 
+
+th {
+    background-color: #f8fafc;
+    color: #475569;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+tr:hover td {
+    background-color: #fafbfc;
+}
+
+/* Estilização dos Botões e Ações */
+.header-actions {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    transition: all 0.2s ease;
+}
+
+.btn-novo {
+    background-color: #2e8b57;
+    color: #ffffff;
+}
+
+.btn-novo:hover {
+    background-color: #256f45;
+    box-shadow: 0 2px 5px rgba(46, 139, 87, 0.3);
+}
+
+.table-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.btn-acao {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.btn-editar {
+    background-color: #ebf8ff;
+    color: #2b6cb0;
+}
+
+.btn-editar:hover {
+    background-color: #bee3f8;
+}
+
+.btn-excluir { 
+    background-color: #fff5f5;
+    color: #c53030;
+} 
+
+.btn-excluir:hover {
+    background-color: #fed7d7;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-muted {
+    color: #a0aec0;
+    font-style: italic;
+}
+
+/* Estilização do Rodapé */
+.site-footer {
+    max-width: 950px;
+    margin: 30px auto 0 auto;
+    padding: 20px 0;
+    text-align: center;
+    color: #64748b;
+    font-size: 14px;
+    border-top: 1px solid #e2e8f0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.site-footer p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.site-footer i {
+    color: #1f4e79;
+}
+
+.footer-copy {
+    font-size: 13px;
+    color: #94a3b8;
+    margin-top: 4px !important;
+}
